@@ -502,7 +502,7 @@
                 $('#data-container').append(card)
                 $('#' + row.number + ' .number').html(row.number);
                 $('#' + row.number + ' .name').html(row.name);
-                $('#' + row.number + ' .packprice').html('รายเดือนเริ่มต้น: ' + row.packprice);
+                $('#' + row.number + ' .packprice').html('รายเดือนสุดคุ้ม: ' + row.packprice);
                 $('#' + row.number + ' .promotion').html(`ราคา : <span class="fs-4 text-danger fw-bold">${row.promotion}</span> บาท`);
                 if (row.status == 'สั่งซื้อแล้ว') {
                     $('#' + row.number + ' .btn')
